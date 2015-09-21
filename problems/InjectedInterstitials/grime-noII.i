@@ -491,8 +491,8 @@ active = 'PureIron'
 []
 
 [Outputs]
+  execute_on = 'timestep_end'
   file_base = grime-5pA-noII
-  interval = 1
   exodus = true
   perf_log = true
   all_var_norms = true
